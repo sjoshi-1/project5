@@ -1,0 +1,63 @@
+:root{
+    font-style:italic;
+   font-weight:bold; 
+   font-family:'Cormorant Garamond', serif;
+
+   
+  
+}
+body{
+    background-image: url("images/bg.jpg");
+   background-size: cover;
+   
+}
+
+#navbarId{
+    background-color:black;
+    font-size:25px;
+    color: antiquewhite;
+    display:flex;
+   
+}
+
+#navbarId a{
+    margin: 0 0 0 25px;
+    padding:10px;
+    color: antiquewhite;
+
+} 
+
+#navbarId a:hover{
+    color:khaki;
+    text-decoration: underline;
+}
+
+.heading{
+    text-align: center;
+    color:#da8a60;
+    font-size:70px;
+    font-style:italic;
+    font-weight:bold; 
+    font-family:'Cormorant Garamond', serif; 
+    text-shadow: 4px ​8px 8px  teal;
+
+}
+.form{
+    
+    padding:10px;
+}
+
+.form label{
+    font-size:25px;
+}
+
+.form p placeholder{
+    font-size:20px;
+    border-radius:5px;
+}
+
+.btn{
+    border:2px solid black;
+    font-size:20px;
+    border-radius:5px;
+}
