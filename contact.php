@@ -33,5 +33,10 @@
 
 <!--contact us-->
 <section class="contact">
-
+<p> you can contact us via following details</p>
+<ul>
+    <li>Contact us : 987654321</li>
+    <li>Email : abc@email.com</li>
+    <li>Location: Main Market</li>
+</ul>
 </section>

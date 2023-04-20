@@ -60,6 +60,7 @@ body{
 .form .btn{
     margin:10px;
 }
+
 .btn{
     border:2px solid black;
     font-size:20px;
@@ -68,13 +69,23 @@ body{
 }
 
 .social{
-    margin:50px;
+    margin:10px;
 }
 
 .social img{
-    bordeR:10px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 22px;
 }
 
+.contact{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
+.contact ul li{
+    list-style: circle;
+}
 
 
