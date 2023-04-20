@@ -78,14 +78,10 @@ body{
     margin: 22px;
 }
 
-.contact{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
 .contact ul li{
     list-style: circle;
+    font-size: 25px;
+
 }
 
 
