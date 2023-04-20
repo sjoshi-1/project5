@@ -18,19 +18,19 @@
  </head>
     <body>
     <header>
-    <nav id="navbar">
+    <nav id="navbarId">
         
-        <ul>
-          <li><a href="item.php">Home</a></li>
-          <li><a href="database.php">About</a></li>
+        
+          <a href="home.php">Home</a>
+          <a href="about.php">About</a>
           
-          <li><a href="contact.php">Contact</a></li>
+          <a href="contact.php">Contact</a>
         
-          <li><a href="contact.php">Shoes</a></li>
-          <li><a href="contact.php">Clothing</a></li>
-          <li><a href="contact.php">Accessories</a></li>
-          <li><a href="contact.php">Featured</a></li>
-        </ul>
+          <a href="shoes.php">Shoes</a>
+          <a href="cloth.php">Clothing</a>
+          <a href="accessories.php">Accessories</a>
+          <a href="featured.php">Featured</a>
+       
      </nav>
           
      
