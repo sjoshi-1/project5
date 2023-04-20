@@ -68,6 +68,7 @@ body{
     margin:10px;
 }
 
+/*contact page*/
 .social{
     margin:10px;
 }
@@ -84,4 +85,42 @@ body{
 
 }
 
+/*about page*/
 
+.about{
+    margin:10px;
+}
+
+/*shoes page*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+                  }
+                  
+.price {
+        color: rgb(12, 67, 126);
+        font-size: 22px;
+        }
+                  
+ .row {
+        display: flex;
+        padding: 10px 4px;
+        }
+                  
+  /* Create two equal columns that sits next to each other */
+.column {
+         flex: 25%;
+         padding: 0 4px;
+         }
+                  
+.column img {
+             height: 200px;;
+             margin-top: 8px;
+             vertical-align: middle;
+}   
+.card :hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.4); 
+}
