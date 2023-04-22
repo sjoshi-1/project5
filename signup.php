@@ -1,5 +1,18 @@
 <?php
 require('headerA.php');
+
+
+session_start();
+if (isset($_SESSION['user'])) {
+  header("Location: home.php");
+  exit();
+}
+
+$form_values = $_SESSION['form_values'] ?? null;
+
+// Clear the form values
+unset($_SESSION['form_values']);
+
 ?>
 
 <h3>Enjoy shopping by exploring more !!!!</h3>

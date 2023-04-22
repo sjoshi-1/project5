@@ -5,8 +5,8 @@ echo("Welcome to database <br>");
 $servername = "localhost";
 $username = "root";
 $password = "";
-
-$conn = mysqli_connect($servername, $username, $password);
+$dsn= "shop";
+$conn = mysqli_connect($servername, $username, $password, $dsn);
 
 if(!$conn){
     die("Sorry ,failed to connect:  " . mysqli_connect_error());
